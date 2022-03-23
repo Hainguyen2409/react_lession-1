@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extends keyword</title>
+</head>
+
+<body>
+    <script>
+        class Animal {
+            say() {
+                console.log('Hi i am an animal');
+            }
+        }
+
+        class Dog extends Animal {
+
+        }
+        let corgi = new Dog();
+        corgi.say();
+    </script>
+</body>
+
+</html>
